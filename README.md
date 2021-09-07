@@ -69,4 +69,4 @@ See the [open issues]() for a list of proposed features (and known issues).
 
 ## 📜 License
 
-Distributed under the GNU AGPLv3 License. See `LICENSE` for more information. Additional license requirements are listed in the `PATENTS` file.
+Distributed under the GNU AGPLv3 License. See `LICENSE` for more information.

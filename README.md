@@ -36,11 +36,7 @@ There are tons of Discord raid tools that claim "to be the best". We give you th
 * [FUTURE] Server captcha bypass.
 <br>
 
-Deadcord has been throughly tested. We garentee that your tokens are safe and sound when using our tool. We use the safest and most effective methods possible.
-
-### Built with
-
-* [Python](https://www.python.org/)
+Deadcord has been throughly tested. We guarantee that your tokens are safe and sound when using our tool. We use the safest and most effective methods possible.
 
 <br>
 

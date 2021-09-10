@@ -17,7 +17,7 @@ Many people may question why we built Deadcord, let alone make it open-source fo
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are tons of Discord raid tools that claim "to be the best". We give you the full package, all the raid modules and utilites you may need. Deadcord is constantly being updated and improved.
+There are tons of Discord raid tools that claim "to be the best". We give you the full package, all the raid modules and utilites you may need. Deadcord has been throughly tested. We guarantee that your tokens are safe and sound when using our tool. We use the most effective methods possible.
 
 <br>
 
@@ -34,10 +34,8 @@ There are tons of Discord raid tools that claim "to be the best". We give you th
 * Random profile picture changer.
 * [FUTURE] Auto-scraping proxies.
 * [FUTURE] Server captcha bypass.
-<br>
-
-Deadcord has been throughly tested. We guarantee that your tokens are safe and sound when using our tool. We use the safest and most effective methods possible.
-
+* [FUTURE] Advanced Wekhook spam.
+* 
 <br>
 
 ## 🏁 Getting Started

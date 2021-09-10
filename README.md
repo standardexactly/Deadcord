@@ -35,7 +35,6 @@ There are tons of Discord raid tools that claim "to be the best". We give you th
 * [FUTURE] Auto-scraping proxies.
 * [FUTURE] Server captcha bypass.
 * [FUTURE] Advanced Wekhook spam.
-* 
 <br>
 
 ## 🏁 Getting Started

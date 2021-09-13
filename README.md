@@ -1,5 +1,5 @@
 <p align="center">
-<img src="deadcord.png" alt="Logo" width="80" height="80"><h3 align="center">Deadcord</h3><p align="center">The best Discord raid tool. Maintained, Powerful, and always free.</p>
+<img src="deadcord-logo.png" alt="Logo" width="80" height="80"><h3 align="center">Deadcord</h3><p align="center">The best Discord raid tool. Maintained, Powerful, and always free.</p>
 <br>
 
 ## 🚨 Disclaimer

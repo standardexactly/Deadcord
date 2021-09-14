@@ -1,3 +1,12 @@
+---
+
+# 🎉 Coming Soon
+Deadcord is still being worked on. We are focused on giving you fully working and reliable tools. We will be the best raid tool out there.
+
+Support my main project by giving this repo a ⭐.
+
+---
+
 <p align="center">
 <img src="deadcord-logo.png" alt="Logo" width="80" height="80"><h3 align="center">Deadcord</h3><p align="center">The best Discord raid tool. Maintained, Powerful, and always free.</p>
 <br>

@@ -41,9 +41,8 @@ There are tons of Discord raid tools that claim "to be the best". We give you th
 * Speak through a token in all channels.
 * Status and Nickname changer.
 * Random profile picture changer.
-* [FUTURE] Auto-scraping proxies.
-* [FUTURE] Server captcha bypass.
-* [FUTURE] Advanced Wekhook spam.
+* Injects directly into Discord, and uses Discord's UI elements.
+* Auto-scraping proxies.
 <br>
 
 ## 🏁 Getting Started
@@ -56,10 +55,12 @@ I will not be providing in-depth setup instructions. Part of this is to protect 
 
 Download the latest release from our `releases` section. Download the file to a location of your choosing.
 
-1. Open Deadcord by double-clicking on the executable file. A installer should open.
-2. Once the installer has setup Deadcord, import your token file in the "Setup" section.
-3. Enter the guild id of the server you want to raid in the setup section.
-4. Now you should be able to use all of the features provided by Deadcord.
+1. Open Deadcord by double-clicking on the executable file. A terminal window should popup.
+2. Enter any information needed by the installation wizard. 
+3. Wait while Deadcord injects the client into Discord.
+4. Make sure the Deadcord Engine is running in the background.
+5. Make sure your tokens are setup.
+6. After you preform the steps above, you should be good to go. 
 
 <br>
 

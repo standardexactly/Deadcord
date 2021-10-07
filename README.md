@@ -13,10 +13,11 @@
 
 ## 💀 About Deadcord
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[ PROJECT SCREENSHOT COMING SOON! ]
 
-There are tons of Discord raid tools that claim "to be the best". We give you the full package, all the raid modules and utilites you may need. Deadcord has been throughly tested. We guarantee that your tokens are safe and sound when using our tool. We use the most effective methods possible.
+*"Time to ditch all the paid raid tools. Choose Deadcord, a free, and reliable solution to many Discord problems." - Beta Tester* 
 
+---
 
 ##### 🚨 Disclaimer
 I do not endorse nor condone raids. Any actions carried out by our tool are at your own risk. We are responsible for creating our tool, but not for how it is used.
@@ -37,7 +38,7 @@ Many people may question why we built Deadcord, let alone make it open-source fo
 * Injects directly into Discord, and uses Discord's UI elements.
 * **[FUTURE UPDATE]** Auto-scraping proxies.
 * **[FUTURE UPDATE]** Chnage all of the bots profile pictures.
-* **[FUTURE UPDATE ~ Beta]** Account Generator.
+* **[FUTURE UPDATE]** Account Generator.
 
 ## 🏁 Getting Started
 

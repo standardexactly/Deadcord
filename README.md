@@ -12,21 +12,20 @@
 <br>
 
 ## 💀 About Deadcord
-
-[ PROJECT SCREENSHOT COMING SOON! ]
-
 *"Time to ditch all the paid raid tools. Choose Deadcord, a free, and reliable solution to many Discord problems." - Beta Tester* 
+
+<img align="center" src = "https://github.com/Galaxzy345/Deadcord/blob/main/deadcord_screenshot.png?raw=true"/>
 
 ---
 
-##### 🚨 Disclaimer
+## 🚨 Disclaimer
 I do not endorse nor condone raids. Any actions carried out by our tool are at your own risk. We are responsible for creating our tool, but not for how it is used.
 To protect our work, and to prevent it from being re-distributed, we have not provided detailed development setup instructions.
 
-##### ❓ Why was Deadcord made?
+## ❓ Why was Deadcord made?
 Many people may question why we built Deadcord, let alone make it open-source for many people to access. Deadcord was built to protest against several of Discords recent actions and decisions, among other things.
 
-##### 🚀 Lets see the features
+### 🚀 Lets see the features
 * Spam speed increases with each token you add.
 * Deadcord averages about 20-30 pings a second with only 12 tokens.
 * Bots can bypass simple verification.

@@ -11,6 +11,9 @@
 
 <br>
 
+## 💬 Join our Discord
+Join [our Discord](https://discord.gg/9N6AUVDZ) for the latest updates and news about Deadcord. [ In Progress ]
+
 ## 💀 About Deadcord
 *"Time to ditch all the paid raid tools. Choose Deadcord, a free, and reliable solution to many Discord problems." - Beta Tester* 
 

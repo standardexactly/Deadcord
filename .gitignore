@@ -1,0 +1,7 @@
+chromedriver.exe
+ffmpeg.exe
+**/__pycache__
+output/
+.idea/
+venv/
+.git/

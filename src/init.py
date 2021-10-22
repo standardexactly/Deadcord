@@ -8,18 +8,17 @@ os.system('cls')
 
 startup = Style.BRIGHT + f'''
 
-
-                            ██████╗ ███████╗ █████╗ ██████╗  ██████╗ ██████╗ ██████╗ ██████╗ 
-                            ██╔══██╗██╔════╝██╔══██╗██╔══██╗██╔════╝██╔═══██╗██╔══██╗██╔══██╗
-                            ██║  ██║█████╗  ███████║██║  ██║██║     ██║   ██║██████╔╝██║  ██║
-                            ██║  ██║██╔══╝  ██╔══██║██║  ██║██║     ██║   ██║██╔══██╗██║  ██║
-                            ██████╔╝███████╗██║  ██║██████╔╝╚██████╗╚██████╔╝██║  ██║██████╔╝
-                            ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═════╝  ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝   
+                         ██████╗ ███████╗ █████╗ ██████╗  ██████╗ ████████╗ ██████╗ ██████╗ 
+                         ██╔══██╗██╔════╝██╔══██╗██╔══██╗██╔════╝██████████╗██╔══██╗██╔══██╗
+                         ██║  ██║█████╗  ███████║██║  ██║██║     ██║ ██  ██║██████╔╝██║  ██║
+                         ██║  ██║██╔══╝  ██╔══██║██║  ██║██║     ████  ████║██╔══██╗██║  ██║
+                         ██████╔╝███████╗██║  ██║██████╔╝╚██████╗╚████████╔╝██║  ██║██████╔╝
+                         ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═════╝  ╚═════╝ █═█═█═█═╝ ╚═╝  ╚═╝╚═════╝   
 
                                     ┏━━━━━━━━━━━━━━━━━━ Info ━━━━━━━━━━━━━━━━┓
                                       {Fore.RESET}{Fore.LIGHTMAGENTA_EX}@ Package: {Fore.WHITE}Deadcord-Engine{Fore.LIGHTMAGENTA_EX}
                                       {Fore.RESET}{Fore.LIGHTMAGENTA_EX}@ Author: {Fore.WHITE}Galaxzy#4845{Fore.LIGHTMAGENTA_EX}
-                                      {Fore.RESET}{Fore.LIGHTMAGENTA_EX}@ Warning: {Fore.WHITE}Use at your own risk!{Fore.LIGHTMAGENTA_EX}
+                                      {Fore.RESET}{Fore.LIGHTMAGENTA_EX}@ Warning: {Fore.RED}Use at your own risk!{Fore.LIGHTMAGENTA_EX}
                                     ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛       
                                     
 {Fore.LIGHTBLACK_EX} Starting the Deadcord Engine ~ {random_quote()}{Fore.RESET} ~ {Fore.LIGHTMAGENTA_EX}Version 0.0.1{Fore.RESET}
@@ -33,9 +32,11 @@ print(startup)
 app = Flask(__name__)
 
 # Disable not needed console output.
-app.logger.disabled = True
-log = logging.getLogger('werkzeug')
-log.disabled = True
+if not get_config("boot_mode") == 1:
+    app.logger.disabled = True
+    log = logging.getLogger('werkzeug')
+    log.disabled = True
+
 cli = sys.modules['flask.cli']
 cli.show_server_banner = lambda *x: None
 

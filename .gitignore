@@ -1,4 +1,4 @@
-chromedriver.exe
+config.json
 ffmpeg.exe
 **/__pycache__
 output/

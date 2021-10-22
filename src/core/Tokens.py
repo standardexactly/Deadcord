@@ -20,18 +20,14 @@ class Tokens:
             if os.path.exists(full_path):
                 console_log(f'Token file found in {loc}.', 2)
                 self.get_tokens(full_path)
-                found = True
                 break
             else:
-                found = False
-
-        if not found:
-            if console_log('Could not find any token files. Search again?', 4).lower() == 'y':
-                self.__init__()
-            else:
-                console_log('No token files found. Deadcord will now shutdown.', 3)
-                sleep(4)
-                exit()
+                if console_log('Could not find any token files. Search again?', 4).lower() == 'y':
+                    self.__init__()
+                else:
+                    console_log('No token files found. Deadcord will now shutdown.', 3)
+                    sleep(4)
+                    exit()
 
     def get_tokens(self, file):
         self.tokens.clear()

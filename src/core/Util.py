@@ -39,20 +39,21 @@ def change_temp_data(temp_object, value):
 
 
 def get_config(key):
-    config = open('config.json', 'r')
-    data = json.load(config)
-    config.close()
-    return data[key]
+    with open('config.json', 'r') as config:
+        data = json.load(config)
+        config.close()
+        return data[key]
 
 
-def change_config():
-    with open('config.json', 'r') as f:
-        data = json.load(f)
-        data['id'] = 134
+def change_config(key, value):
+    with open('config.json', 'r') as config:
+        data = json.load(config)
+        data[key] = value
 
     os.remove('config.json')
-    with open('config.json', 'w') as f:
-        json.dump(data, f, indent=4)
+
+    with open('config.json', 'w') as config_new:
+        json.dump(data, config_new, indent=4)
 
 
 def console_log(text, mode=0):
@@ -89,3 +90,21 @@ def response(code=200, message="Success", data=[]):
 def return_path(location):
     path = os.path.join(os.path.join(os.environ['USERPROFILE']), location)
     return path
+
+
+def clean_input(text):
+    params = []
+    lines = text.splitlines()
+    for line in lines:
+        params.append(line.replace('\n', ''))
+
+    return params
+
+
+def execute_threads(threads=[], delay=0):
+    for thread in threads:
+        time.sleep(delay)
+        thread.start()
+
+    for thread in threads:
+        thread.join()
